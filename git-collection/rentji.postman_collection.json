@@ -1,0 +1,96 @@
+{
+	"info": {
+		"_postman_id": "d63fba46-52b5-4ec8-96e2-bb02016fa143",
+		"name": "rentji",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://rentji.primustims.com/api/Category",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://rentji.primustims.com/api/ProductList",
+					"protocol": "http",
+					"host": [
+						"rentji",
+						"primustims",
+						"com"
+					],
+					"path": [
+						"api",
+						"ProductList"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://rentji.primustims.com/api/ProductList",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://rentji.primustims.com/api/ProductList",
+					"protocol": "http",
+					"host": [
+						"rentji",
+						"primustims",
+						"com"
+					],
+					"path": [
+						"api",
+						"ProductList"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://rentji.primustims.com/api/SubCategory/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://rentji.primustims.com/api/SubCategory/1",
+					"protocol": "http",
+					"host": [
+						"rentji",
+						"primustims",
+						"com"
+					],
+					"path": [
+						"api",
+						"SubCategory",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://rentji.primustims.com/api/Product/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://rentji.primustims.com/api/Product/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.Mw.EEj13DwgH-JJa_BfyE1GK2D9svU1PcPpXTkfisX5oxU",
+					"protocol": "http",
+					"host": [
+						"rentji",
+						"primustims",
+						"com"
+					],
+					"path": [
+						"api",
+						"Product",
+						"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.Mw.EEj13DwgH-JJa_BfyE1GK2D9svU1PcPpXTkfisX5oxU"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
